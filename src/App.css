@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.icomonButton {
+  transition: all 0.3s !important;
+}
+.iconButton:hover {
+ background-color: #c5c5c5 !important;
+ box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4 ) !important;
+}
+.todoCard {
+  transition: all 0.3s !important;
+}
+.todoCard:hover {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4 ) !important;
+
+}
+
+/* custom font */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/font/static/PlaypenSansArabic-Medium.ttf') ;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/font/static/PlaypenSansArabic-Bold.ttf') ;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/font/static/PlaypenSansArabic-ExtraBold.ttf') ;
+  font-weight: 800  ;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/font/static/PlaypenSansArabic-Light.ttf') ;
+  font-weight: 300;
+} 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/font/static/PlaypenSansArabic-Regular.ttf') ;
+  font-weight: 400;
+}
+/* ==== Custom Font === */
